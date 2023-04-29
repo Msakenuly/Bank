@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #769ff7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.okno.HelloController">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="8.0" layoutX="154.0" layoutY="37.0" lineSpacing="10.0" prefHeight="64.0" prefWidth="291.0" text="AspanBank" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="54.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Pane fx:id="Pane" layoutY="115.0" prefHeight="591.0" prefWidth="600.0" style="-fx-background-color: #769ff7;">
+         <children>
+            <Circle fill="#769ff7" layoutX="230.0" layoutY="284.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+            <Circle fill="#769ff7" layoutX="114.0" layoutY="337.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+            <Circle fill="#769ff7" layoutX="302.0" layoutY="337.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="102.0" layoutY="367.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+            <Circle fill="#769ff7" layoutX="226.0" layoutY="297.0" radius="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#769ff7" layoutX="245.0" layoutY="315.0" radius="95.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#769ff7" layoutX="118.0" layoutY="338.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#769ff7" layoutX="302.0" layoutY="338.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#769ff7" layoutX="286.0" layoutY="249.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#769ff7" layoutX="166.0" layoutY="261.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+            <TextField fx:id="Logtf" layoutX="150.0" layoutY="310.0" prefHeight="30.0" prefWidth="300.0" promptText="Логин" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+               <font>
+
+                  <Font name="Calibri Bold Italic" size="16.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <PasswordField fx:id="passwordtf" layoutX="150.0" layoutY="367.0" prefHeight="33.0" prefWidth="300.0" promptText="Пароль" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+               <font>
+                  <Font name="Calibri Bold Italic" size="16.0" />
+               </font>
+               <effect>
+                  <Glow />
+               </effect>
+            </PasswordField>
+            <Button fx:id="signBt" layoutX="225.0" layoutY="465.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;" text="Kiru" textFill="#769ff7">
+               <font>
+                  <Font name="Britannic Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="authBt" layoutX="225.0" layoutY="514.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;" text="Tirkelu" textFill="#769ff7">
+               <font>
+                  <Font name="Britannic Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label fx:id="labelqate" alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="422.0" prefHeight="18.0" prefWidth="300.0" textAlignment="CENTER" textFill="#d93030" textOverrun="CLIP">
+               <font>
+                  <Font name="Calibri Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Circle fill="#769ff7" layoutX="622.0" layoutY="224.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="554.0" layoutY="294.0" radius="109.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="613.0" layoutY="252.0" radius="98.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="544.0" layoutY="333.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+      <Circle fill="#769ff7" layoutX="554.0" layoutY="294.0" radius="98.0" stroke="#769ff7" strokeType="INSIDE" strokeWidth="2.0" />
+   </children>
+</AnchorPane>

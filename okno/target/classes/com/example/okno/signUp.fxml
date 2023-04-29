@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #769ff7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.okno.signUpController">
+   <children>
+      <Circle fill="#769ff7" layoutX="458.0" layoutY="415.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="342.0" layoutY="468.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="530.0" layoutY="468.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="330.0" layoutY="498.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+      <Circle fill="#769ff7" layoutX="454.0" layoutY="428.0" radius="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="473.0" layoutY="446.0" radius="95.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="346.0" layoutY="469.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="530.0" layoutY="469.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="514.0" layoutY="380.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="394.0" layoutY="392.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <TextField fx:id="signUpLogtf" layoutX="69.0" layoutY="315.0" prefHeight="33.0" prefWidth="229.0" promptText="Логин" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+         <font>
+            <Font name="Calibri Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="authBt" layoutX="224.0" layoutY="600.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: white; -fx-background-radius: 20; -fx-border-radius: 20;" text="Tirkelu" textFill="#769ff7">
+         <font>
+            <Font name="Britannic Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="signUpname" layoutX="69.0" layoutY="178.0" prefHeight="33.0" prefWidth="229.0" promptText="Аты" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+         <font>
+            <Font name="Calibri Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="signUpfullname" layoutX="321.0" layoutY="178.0" prefHeight="33.0" prefWidth="229.0" promptText="Тегі" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+         <font>
+            <Font name="Calibri Bold Italic" size="14.0" />
+         </font>
+      </TextField>
+      <CheckBox fx:id="erchbx" layoutX="78.0" layoutY="254.0" mnemonicParsing="false" text="Er" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+         <effect>
+            <Blend mode="BLUE" opacity="0.18" />
+         </effect>
+      </CheckBox>
+      <CheckBox fx:id="aielchb" layoutX="224.0" layoutY="254.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" text="Aiel" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="16.0" />
+         </font>
+         <effect>
+            <Blend mode="BLUE" opacity="0.18" />
+         </effect>
+      </CheckBox>
+      <PasswordField fx:id="signUpLpasswordtf" layoutX="313.0" layoutY="315.0" prefHeight="34.0" prefWidth="230.0" promptText="Пароль" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-background-color: white;">
+         <font>
+            <Font name="Calibri Bold Italic" size="14.0" />
+         </font>
+      </PasswordField>
+      <Label alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="8.0" layoutX="164.0" layoutY="47.0" lineSpacing="10.0" prefHeight="64.0" prefWidth="291.0" text="AspanBank" textFill="WHITE">
+         <font>
+            <Font name="Bauhaus 93" size="54.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #769ff7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.okno.Controller2">
+   <Circle fill="#769ff7" layoutX="518.0" layoutY="142.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Circle fill="#769ff7" layoutX="402.0" layoutY="195.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Circle fill="#769ff7" layoutX="590.0" layoutY="195.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="390.0" layoutY="225.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+   <Circle fill="#769ff7" layoutX="514.0" layoutY="155.0" radius="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="533.0" layoutY="173.0" radius="95.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="406.0" layoutY="196.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="590.0" layoutY="196.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="574.0" layoutY="107.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="454.0" layoutY="119.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="104.0" layoutY="660.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Circle fill="#769ff7" layoutX="-12.0" layoutY="713.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Circle fill="#769ff7" layoutX="176.0" layoutY="713.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+   <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="-24.0" layoutY="743.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+   <Circle fill="#769ff7" layoutX="100.0" layoutY="673.0" radius="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="119.0" layoutY="691.0" radius="95.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="-8.0" layoutY="714.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="176.0" layoutY="714.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="160.0" layoutY="625.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Circle fill="#769ff7" layoutX="40.0" layoutY="637.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+   <Slider fx:id="sliderbaga" blockIncrement="500000.0" layoutX="56.0" layoutY="168.0" majorTickUnit="500000.0" max="1.0E7" min="4000000.0" minorTickCount="0" prefHeight="14.0" prefWidth="488.0" showTickLabels="true" snapToTicks="true" />
+   <Label layoutX="56.0" layoutY="112.0" prefHeight="18.0" prefWidth="113.0" text="Kredit kolemi:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Slider fx:id="sliderjarna" blockIncrement="500000.0" layoutX="56.0" layoutY="257.0" majorTickUnit="500000.0" max="8000000.0" min="2000000.0" minorTickCount="1" prefHeight="14.0" prefWidth="488.0" showTickLabels="true" snapToTicks="true" />
+   <Label layoutX="56.0" layoutY="201.0" prefHeight="18.0" prefWidth="148.0" text="Algashqy jarna:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Slider fx:id="slidermerzim" blockIncrement="6.0" layoutX="56.0" layoutY="346.0" majorTickUnit="6.0" max="300.0" min="36.0" minorTickCount="0" prefHeight="34.0" prefWidth="488.0" showTickLabels="true" snapToTicks="true" />
+   <Label layoutX="56.0" layoutY="290.0" prefHeight="18.0" prefWidth="113.0" text="Merzimi:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="56.0" layoutY="408.0" prefHeight="26.0" prefWidth="78.0" text="Paiyzy:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="25.0" />
+      </font>
+   </Label>
+   <Label layoutX="64.0" layoutY="421.0" prefHeight="79.0" prefWidth="63.0" text="7%" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="41.0" />
+      </font>
+   </Label>
+   <Label layoutX="428.0" layoutY="397.0" prefHeight="48.0" prefWidth="90.0" text="MES:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="29.0" />
+      </font>
+   </Label>
+   <Label layoutX="429.0" layoutY="416.0" prefHeight="79.0" prefWidth="88.0" text="7,2%" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="36.0" />
+      </font>
+   </Label>
+   <Label layoutX="252.0" layoutY="465.0" prefHeight="22.0" prefWidth="106.0" text="Tolem tyri:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="21.0" />
+      </font>
+   </Label>
+   <RadioButton fx:id="jra" layoutX="75.0" layoutY="500.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="88.0" text="Аннуитет" textFill="WHITE">
+      <font>
+         <Font name="Times New Roman Bold" size="12.0" />
+      </font>
+      <toggleGroup>
+         <ToggleGroup fx:id="ToggleGroup" />
+      </toggleGroup>
+   </RadioButton>
+   <RadioButton fx:id="jrd" layoutX="443.0" layoutY="500.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="106.0" text="Тең бөлікпен" textFill="WHITE" toggleGroup="$ToggleGroup">
+      <font>
+         <Font name="Times New Roman Bold" size="12.0" />
+      </font>
+   </RadioButton>
+   <Button fx:id="button" layoutX="145.0" layoutY="638.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="310.0" style="-fx-background-color: white;" text="Otinim beru" textFill="#769ff7">
+      <font>
+         <Font name="Britannic Bold" size="29.0" />
+      </font>
+   </Button>
+   <Label layoutX="52.0" layoutY="527.0" prefHeight="34.0" prefWidth="148.0" text="Ai saiyngy tolem:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="396.0" layoutY="527.0" prefHeight="34.0" prefWidth="148.0" text="Kredit sommasy:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label fx:id="labelplatezh" layoutX="48.0" layoutY="571.0" prefHeight="42.0" prefWidth="194.0" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <Label fx:id="labelkrsumma" layoutX="370.0" layoutY="571.0" prefHeight="42.0" prefWidth="194.0" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Label>
+   <TextField fx:id="labelbaga" layoutX="52.0" layoutY="130.0" promptText="KZT" style="-fx-background-color: WHITE;">
+      <font>
+         <Font name="Britannic Bold" size="16.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="labeljarna" layoutX="52.0" layoutY="223.0" promptText="KZT" style="-fx-background-color: WHITE;">
+      <font>
+         <Font name="Britannic Bold" size="16.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="labelmerzim" layoutX="52.0" layoutY="312.0" promptText="(36-300)" style="-fx-background-color: WHITE;">
+      <font>
+         <Font name="Britannic Bold" size="16.0" />
+      </font>
+   </TextField>
+   <Label fx:id="labelsongy" layoutX="176.0" layoutY="701.0" prefHeight="34.0" prefWidth="256.0" textFill="DARKSLATEBLUE">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font>
+   </Label>
+   <TextField fx:id="textfield" layoutX="363.0" layoutY="131.0" promptText="KZT" style="-fx-background-color: WHITE;">
+      <font>
+         <Font name="Britannic Bold" size="16.0" />
+      </font>
+   </TextField>
+   <Label layoutX="369.0" layoutY="112.0" prefHeight="18.0" prefWidth="148.0" text="Ailyq molsheri:" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="18.0" />
+      </font>
+   </Label>
+   <Button fx:id="download" layoutX="199.0" layoutY="532.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Жүктеу" textFill="#769ff7">
+      <font>
+         <Font name="Times New Roman Bold" size="13.0" />
+      </font></Button>
+   <Button fx:id="btnback" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="42.0" style="-fx-background-color: #F0FFFF;">
+      <graphic>
+         <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" />
+      </graphic>
+   </Button>
+   <Label alignment="TOP_CENTER" contentDisplay="TOP" graphicTextGap="8.0" layoutX="145.0" layoutY="34.0" lineSpacing="10.0" prefHeight="64.0" prefWidth="291.0" text="AspanNesie" textFill="WHITE">
+      <font>
+         <Font name="Bauhaus 93" size="54.0" />
+      </font>
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </Label>
+   <Label fx:id="labelson" alignment="CENTER" layoutX="201.0" layoutY="591.0" prefHeight="42.0" prefWidth="207.0" textFill="WHITE">
+      <font>
+         <Font name="Britannic Bold" size="16.0" />
+      </font>
+   </Label>
+</AnchorPane>

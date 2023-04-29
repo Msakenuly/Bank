@@ -1,0 +1,53 @@
+void initialize() {
+        summa = Double.parseDouble(sumtf.getText());
+        percent = Double.parseDouble(percenttf.getText());
+        srok = Double.parseDouble(sroktf.getText());
+        annRB.setOnAction(actionEvent -> {
+            s = summa;
+            for (int i = 0; i < srok; i++) {
+                Pl2[i] = (summa * percent / (12 * 100)) / (1 - Math.pow((1 + (percent) / (12 * 100)), -srok));
+                a[i] = Pl2[i];
+                Op[i] = s * percent / (100 * 12);
+                pp[i] = Op[i];
+                op[i] = (Pl2[i] - pp[i]);
+                s = s - op[i];
+                os[i] = s;}
+        });
+     diffRB.setOnAction(actionEvent1 -> {
+                s = summa;
+            for (int i = 0; i < srok; i++) {
+                Op[i] = (summa / srok);
+                Pl2[i] = (summa / srok) + (summa - (summa / srok) * i) * (percent / (100 * 12));
+                a[i] = Pl2[i];
+                op[i] = Op[i];
+                pp[i] = a[i] - op[i];
+                s = s - op[i];
+                os[i] = s;
+            }
+            });
+     esepteubutton.setOnAction(actionEvent -> {
+         for (int i = 0; i < srok; i++) {
+                data[i][0] = i + 1 + " aй";
+                data[i][1] = (int) (Math.ceil(a[i] * scale) / scale);
+                data[i][2] = (int) (Math.ceil(op[i] * scale) / scale);
+                data[i][3] = (int) (Math.ceil(pp[i] * scale) / scale);
+                data[i][4] = (int) (Math.ceil(os[i] * scale) / scale);
+            }
+     });
+     saveB.setOnAction(actionEvent -> {
+          PrintWriter Ha;
+            try {
+                Ha = new PrintWriter("src/p.txt");
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+            for (int i = 0; i < srok; i++) {
+                for (int j = 0; j < 6; j++) {
+                    Ha.print(data[i][j] + "\t");
+                }
+                Ha.println();
+            }
+            Ha.close();
+     });
+
+    }

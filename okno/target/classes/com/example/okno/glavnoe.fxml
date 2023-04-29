@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #769ff7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.okno.Glavnoe">
+   <children>
+      <Circle fill="#769ff7" layoutX="411.0" layoutY="432.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="295.0" layoutY="485.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fill="#769ff7" layoutX="483.0" layoutY="485.0" radius="100.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#769ff7" height="70.0" layoutX="283.0" layoutY="515.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="10.0" width="200.0" />
+      <Circle fill="#769ff7" layoutX="407.0" layoutY="445.0" radius="91.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="426.0" layoutY="463.0" radius="95.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="299.0" layoutY="486.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="483.0" layoutY="486.0" radius="89.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="467.0" layoutY="397.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="347.0" layoutY="409.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label layoutX="41.0" layoutY="478.0" text="Nesiege otinish" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Button fx:id="btnkredit" layoutX="41.0" layoutY="343.0" mnemonicParsing="false" opacity="0.8" prefHeight="135.0" prefWidth="140.0" style="-fx-background-color: #F0FFFF;">
+         <graphic>
+            <ImageView fx:id="img" fitHeight="120.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="btnmoibank" layoutX="245.0" layoutY="343.0" mnemonicParsing="false" opacity="0.8" prefHeight="135.0" prefWidth="140.0" style="-fx-background-color: #F0FFFF;">
+         <graphic>
+            <ImageView fx:id="img2" fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Label layoutX="247.0" layoutY="478.0" text="Menin shotym" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Button fx:id="btncard" layoutX="423.0" layoutY="343.0" mnemonicParsing="false" opacity="0.8" prefHeight="135.0" prefWidth="140.0" style="-fx-background-color: #F0FFFF;">
+         <graphic>
+            <ImageView fx:id="img3" fitHeight="120.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Label layoutX="448.0" layoutY="478.0" prefHeight="24.0" prefWidth="104.0" text="Audarym" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Button fx:id="btnkredit1" layoutX="31.0" layoutY="35.0" mnemonicParsing="false" opacity="0.8" prefHeight="224.0" prefWidth="262.0" style="-fx-background-color: #F0FFFF;" textFill="TRANSPARENT">
+         <graphic>
+            <ImageView fitHeight="205.0" fitWidth="245.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" />
+         </graphic></Button>
+      <Button fx:id="btnkredit11" layoutX="315.0" layoutY="35.0" mnemonicParsing="false" opacity="0.8" prefHeight="224.0" prefWidth="262.0" style="-fx-background-color: #F0FFFF;" textFill="TRANSPARENT">
+         <graphic>
+            <ImageView fitHeight="205.0" fitWidth="245.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Label layoutX="119.0" layoutY="259.0" prefHeight="22.0" prefWidth="93.0" text="Biletter" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Label layoutX="416.0" layoutY="258.0" text="Magazin" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Label layoutX="208.0" layoutY="-10.0" prefHeight="47.0" prefWidth="214.0" text="JAQYNDA!" textFill="#fcfcfc">
+         <font>
+            <Font name="Arial Black" size="32.0" />
+         </font>
+         <effect>
+            <Glow level="0.51" />
+         </effect>
+      </Label>
+      <Button fx:id="btnshygu" alignment="CENTER" layoutX="14.0" layoutY="633.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="110.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30;" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <effect>
+            <Glow />
+         </effect>
+      </Button>
+      <Label layoutX="37.0" layoutY="649.0" prefHeight="24.0" prefWidth="83.0" text="Shygu" textFill="#769ff7">
+         <font>
+            <Font name="Britannic Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

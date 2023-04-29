@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="154.0" prefWidth="360.0" style="-fx-background-color: #769ff7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.okno.Okoshko2">
+   <children>
+      <Circle fill="#769ff7" layoutX="14.0" radius="47.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle fill="#769ff7" layoutX="73.0" layoutY="14.0" radius="47.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle fill="#769ff7" layoutX="120.0" layoutY="-8.0" radius="47.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" />
+      <Circle fill="#769ff7" layoutX="73.0" layoutY="6.0" radius="50.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fill="#769ff7" layoutX="23.0" layoutY="14.0" radius="24.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label alignment="CENTER" layoutX="62.0" layoutY="53.0" prefHeight="18.0" prefWidth="253.0" style="-fx-border-radius: 30; -fx-background-radius: 50;" text="Satty juzege asty!" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnok" layoutX="160.0" layoutY="98.0" mnemonicParsing="false" opacity="0.8" style="-fx-background-color: white;" text="OK" textFill="#769ff7">
+         <font>
+            <Font name="Calibri Bold Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
